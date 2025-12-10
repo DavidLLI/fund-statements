@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+import { Analytics } from '@vercel/analytics/react'
 import {
   DocumentCheckIcon,
   InboxArrowDownIcon,
@@ -437,6 +438,7 @@ function App() {
           <p className="text-xs text-slate-500">© 2025 AltOpsLab</p>
         </div>
       </footer>
+      <Analytics />
     </div>
   )
 }
